@@ -1,0 +1,29 @@
+# ============================================================================
+# AscendentClasses - English (en_us) [SECONDARY]
+# ============================================================================
+
+classes:
+  menu-title-classes: "&8✦ &6&lClasses & Ascensions &8✦"
+  menu-title-stats: "&8✦ &a&lGlobal Statistics &8✦"
+  menu-title-skills: "&8✦ &b&lClass Skills &8✦"
+  menu-title-talismans: "&8✦ &d&lTalisman Pouch &8✦"
+  switched: "&aYou switched your active class to &6&l{class} &7(Class Lv. &e{level} &8| &b{points} Skill Pts&7). Your global stats remain intact."
+  already-active: "&eYou already have the &6{class} &eclass equipped."
+  ascension-locked: "&cYou must reach &eLevel {req} &cin base class &6{base} &cto ascend to &d{class}&c."
+  stat-invested: "&aInvested &e+1 Global Point &ainto &f{stat} &7(Total invested: &e{points}&7 | Remaining: &a{free}&7)."
+  stat-no-points: "&cYou have no free Global Stat Points (&e0&c). Level up or use &f/clase admin addstatpts&c."
+  skill-upgraded: "&bSkill upgraded! &e{skill} &7reached &6Level {level}/{max} &8(&c+{dmg}% Dmg &7| &b+{aoe}m AoE Range&8)."
+  skill-no-points: "&cYou have no Skill Points available for class &6{class}&c."
+  skill-max-level: "&eSkill &6{skill} &eis already at max level (&6Lv. {max}&e)."
+  skill-cast: "&b&l✦ {skill} &7(Lv. {level})&b&l! &7(&c{damage} Dmg &8| &e+{stun} Stun &8| &b{aoe}m AoE&7)"
+  skill-cooldown: "&cSkill &e{skill} &cis on cooldown (&e{seconds}s&c)."
+  respec-stats-done: "&aYou reset your &eGlobal Stat Points&a. Refunded &6{points} points&a."
+  respec-skills-done: "&aYou reset the &bSkill Points &afor class &6{class}&a. Refunded &b{points} points&a."
+  respec-no-coins: "&cYou need &6{cost} Coins &c(or a Rebirth Orb) to reset your points."
+  talisman-equipped: "&dEquipped talisman &6{talisman} &7({used}/{max} slots used)."
+  talisman-unequipped: "&7Unequipped talisman &e{talisman}&7."
+  talisman-slots-full: "&cAll &d{max} Talisman slot(s) &care full. Unlock more Talisman Pouches in main quests or unequip one."
+  talisman-slot-unlocked: "&d&lNEW TALISMAN SLOT! &7You can now equip up to &e{slots} Talismans &7at once."
+  armor-passive-active: "&a✔ Class Passive Active ({class}): &f+{bonus} {stat}"
+  armor-passive-inactive: "&c✖ Class Passive Inactive: &7Requires class &e{required} &7(only universal base stats apply)."
+  armor-given: "&aYou received the class armor piece: &6{item}&a."

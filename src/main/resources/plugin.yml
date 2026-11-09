@@ -1,0 +1,27 @@
+name: AscendentClasses
+description: "${description}"
+prefix: AscendentClasses
+version: "${version}"
+
+main: com.thelastascension.ascendentClasses.AscendentClasses
+api-version: '1.21.1'
+load: POSTWORLD
+depend: [ AscendentCore ]
+softdepend: [ AscendentCombat, MythicMobs, ModelEngine ]
+
+authors: [ Sebilebi ]
+website: https://github.com/The-Last-Ascension
+
+commands:
+  clase:
+    description: Abre el menu y gestion de Clases, Estadisticas Globales, Habilidades, Armaduras y Talismanes.
+    aliases: [ class, classes, clases, ascclass, talisman ]
+    permission: ascendent.classes.use
+
+permissions:
+  ascendent.classes.use:
+    description: Permite abrir el menu de clases, habilidades, estadisticas y talismanes.
+    default: true
+  ascendent.classes.admin:
+    description: Permite otorgar puntos, desbloquear huecos de talisman, crear armaduras de clase y administrar clases.
+    default: op

@@ -1,0 +1,27 @@
+# ============================================================================
+# AscendentClasses v1.0.0 - Configuración de Clases, Habilidades, Armaduras y Talismanes
+# ============================================================================
+
+classes:
+  # Cambiar de clase es gratuito estilo Trove y conserva el progreso individual de cada clase
+  free-class-switch: true
+  # Nivel de clase requerido para evolucionar/ascender a una subclase avanzada
+  ascension-required-class-level: 10
+  # Coste en monedas para resetear (Respec) puntos de estadística globales o puntos de habilidad de clase
+  respec-coin-cost: 250
+
+skills:
+  # Nivel máximo de mejora evolutiva por habilidad (aumenta daño, rango AoE y efectos)
+  max-skill-level: 5
+  # Ranuras iniciales por categoría (RAPIDA, CARGADA, MOVIMIENTO, ESPECIAL, DEFINITIVA)
+  default-slots-per-category: 1
+  # Multiplicador de daño adicional por cada nivel de mejora de habilidad (+25% por nivel)
+  damage-growth-per-level: 0.25
+  # Incremento de radio/tamaño AoE en bloques por cada nivel de mejora (+0.6 bloques por nivel)
+  aoe-growth-per-level: 0.60
+
+talismans:
+  # Ranuras iniciales de talismán al empezar la aventura (estilo Elden Ring)
+  initial-slots: 1
+  # Máximo de ranuras de talismán desbloqueables mediante misiones principales / bosses
+  max-slots: 4

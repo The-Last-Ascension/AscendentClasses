@@ -1,0 +1,29 @@
+# ============================================================================
+# AscendentClasses - Español (es_es) [OBLIGATORIO / PRINCIPAL]
+# ============================================================================
+
+classes:
+  menu-title-classes: "&8✦ &6&lClases y Ascensiones &8✦"
+  menu-title-stats: "&8✦ &a&lEstadísticas Globales &8✦"
+  menu-title-skills: "&8✦ &b&lHabilidades de Clase &8✦"
+  menu-title-talismans: "&8✦ &d&lBolsa de Talismanes &8✦"
+  switched: "&aHas cambiado tu clase activa a &6&l{class} &7(Nv. de Clase &e{level} &8| &b{points} Pts. Habilidad&7). Tus estadísticas globales se mantienen intactas."
+  already-active: "&eYa tienes equipada la clase &6{class}&e."
+  ascension-locked: "&cNecesitas alcanzar el &eNivel {req} &cen la clase base &6{base} &cpara ascender a &d{class}&c."
+  stat-invested: "&aHas invertido &e+1 Punto Global &aen &f{stat} &7(Total invertido: &e{points}&7 | Restantes: &a{free}&7)."
+  stat-no-points: "&cNo tienes Puntos de Estadística Globales libres (&e0&c). Sube de nivel global o usa &f/clase admin addstatpts&c."
+  skill-upgraded: "&b¡Habilidad mejorada! &e{skill} &7ha subido a &6Nivel {level}/{max} &8(&c+{dmg}% Daño &7| &b+{aoe}m Rango AoE&8)."
+  skill-no-points: "&cNo tienes Puntos de Habilidad en la clase &6{class}&c."
+  skill-max-level: "&eLa habilidad &6{skill} &eya está al nivel máximo (&6Nv. {max}&e)."
+  skill-cast: "&b&l✦ ¡{skill} &7(Nv. {level})&b&l! &7(&c{damage} Daño &8| &e+{stun} Stun &8| &b{aoe}m AoE&7)"
+  skill-cooldown: "&cLa habilidad &e{skill} &cestá en enfriamiento (&e{seconds}s&c)."
+  respec-stats-done: "&aHas reseteado tus &ePuntos de Estadística Globales&a. Has recuperado &6{points} puntos&a."
+  respec-skills-done: "&aHas reseteado los &bPuntos de Habilidad &ade tu clase &6{class}&a. Has recuperado &b{points} puntos&a."
+  respec-no-coins: "&cNecesitas &6{cost} Monedas &c(o un Orbe de Renacimiento) para resetear tus puntos."
+  talisman-equipped: "&dHas equipado el talismán &6{talisman} &7({used}/{max} ranuras usadas)."
+  talisman-unequipped: "&7Has desequipado el talismán &e{talisman}&7."
+  talisman-slots-full: "&cHas ocupado tus &d{max} ranura(s) de Talismán&c. Desbloquea más Bolsas de Talismán en misiones principales o deséquipa uno."
+  talisman-slot-unlocked: "&d&l¡NUEVA RANURA DE TALISMÁN! &7Ahora puedes equipar hasta &e{slots} Talismanes &7simultáneamente."
+  armor-passive-active: "&a✔ Pasiva de Clase Activa ({class}): &f+{bonus} {stat}"
+  armor-passive-inactive: "&c✖ Pasiva de Clase Inactiva: &7Requiere clase &e{required} &7(solo recibes la defensa/vida base universal)."
+  armor-given: "&aHas recibido la pieza de armadura de clase: &6{item}&a."
